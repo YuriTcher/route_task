@@ -19,7 +19,7 @@ public class Main {
             second.put(path.getFrom(), path.getTo());
         }
 
-        // ищем первый город в маршруте
+        // 1 ищем первый город в маршруте
         // (линейная O(n))
         for (Map.Entry<String, String> entry : first.entrySet()) {
             String value = entry.getValue();
